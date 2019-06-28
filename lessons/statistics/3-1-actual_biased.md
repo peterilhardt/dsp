@@ -22,13 +22,13 @@ plt.savefig('barplot1.png')
 
 > > This produced the distribution shown in the bar plot:
 
-![barplot image 1](https://github.com/peterilhardt/dsp/tree/master/lessons/statistics/barplot1.png)
+![barplot1](barplot1.png)
 
 
 
 > > It then asked us to compute a biased distribution that would result from surveying the children themselves. For this, I multiplied each count of the number of children reported by the number of children reported, since children in the same family would report the same number of children in that family, and those values would be disproportionately represented. Families with zero children would not be counted at all. I then computed the probabilities like before and generated the distribution shown:
 
-![barplot image 2](https://github.com/peterilhardt/dsp/tree/master/lessons/statistics/barplot2.png)
+![barplot2](barplot2.png)
 
 > > The code for this was:
 
