@@ -13,7 +13,7 @@ plt.ylabel('PMF')
 plt.savefig('barplot3.png')
 ```
 
-!['PMF barplot'](/Users/pilhardt/Documents/Metis/dsp/lessons/statistics/barplot3.png)
+![PMF barplot](https://github.com/peterilhardt/dsp/tree/master/lessons/statistics/barplot3.png)
 
 > > This plot is not a good way to answer the question since every value in the array is unique (which is likely to occur given the precision of the random number generator), and so the count of each value is 1 with probability 1/1000. To generate the CDF, I sorted the values, found the percent rank of each value by calculating the fraction of values less than or equal to that value, and plotted the percent ranks as a step function against the sorted values:
 
@@ -28,6 +28,6 @@ plt.ylabel('CDF')
 plt.savefig('stepplot.png')
 ```
 
-!['CDF step plot'](/Users/pilhardt/Documents/Metis/dsp/lessons/statistics/stepplot.png)
+![CDF step plot](https://github.com/peterilhardt/dsp/tree/master/lessons/statistics/stepplot.png)
 
-This plot suggests the random number generator truly is random, since the values clearly follow a uniform distribution as indicated by the straight line CDF. 
+This plot suggests the random number generator truly is random, since the values clearly follow a uniform distribution as indicated by the straight line CDF. The plot would have curvature if some values were more likely than others. 
