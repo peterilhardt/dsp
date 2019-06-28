@@ -108,7 +108,9 @@ P(A | B) = (1)(1/300) / (17/1500) = (5/17)
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> The main difference between Bayesian and frequentist statistics deals with the treatment of probability and inference in testing hypotheses or evaluating significance. Bayesian inference relies on the generation of a (often subjective) prior probability of a hypothesis, and then updates the probability of that hypothesis as data is observed. It takes into account the probability of getting the data observed given all possible hypotheses, and synthesizes all of this information to generate a posterior probability of a hypothesis being true given the data. Frequentist statistics never estimates the probabilities of the hypotheses themselves, but instead models the likelihood of observing the data given previous assumptions about the hypotheses (e.g. the null hypothesis). It relies on assumptions about the conditional distributions from which the data is sampled and assesses the likelihood of various outcomes given how well the data fits those distributions. 
+>>
+>> Because Bayesian statistics can involve estimation of more parameters (given that the prior is generally subjective and can vary from person to person), it tends to require more complex computational methods than frequentist statistics, which "only" evaluates the data itself to assess the strength of evidence against the null (typically more objective). Nevertheless, the deductive logical reasoning of Bayesian statistics often presents advantages when dealing with complex fluid systems, and can add statistical power to decisions when a reasonable prior can be estimated. 
 
 ---
 
