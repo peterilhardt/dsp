@@ -20,15 +20,15 @@ plt.ylabel('PMF')
 plt.savefig('barplot1.png')
 ```
 
-> > This produced the distribution shown in the histogram:
+> > This produced the distribution shown in the bar plot:
 
-![barplot image 1](/Users/pilhardt/Documents/Metis/dsp/lessons/statistics/barplot1.png)
+![barplot image 1](https://github.com/peterilhardt/dsp/tree/master/lessons/statistics/barplot1.png)
 
 
 
 > > It then asked us to compute a biased distribution that would result from surveying the children themselves. For this, I multiplied each count of the number of children reported by the number of children reported, since children in the same family would report the same number of children in that family, and those values would be disproportionately represented. Families with zero children would not be counted at all. I then computed the probabilities like before and generated the distribution shown:
 
-![barplot image 2](/Users/pilhardt/Documents/Metis/dsp/lessons/statistics/barplot2.png)
+![barplot image 2](https://github.com/peterilhardt/dsp/tree/master/lessons/statistics/barplot2.png)
 
 > > The code for this was:
 
@@ -48,5 +48,10 @@ plt.ylabel('Biased PMF')
 plt.savefig('barplot2.png')
 ```
 
-> > Finally, the problem asked for the mean of each distribution, which was 1.02 for the unbiased count and 2.4 6 for the biased count.
+> > Finally, the problem asked for the mean of each distribution, which was 1.02 for the unbiased count and 2.46 for the biased count.
 
+```python
+print(num_kids.mean())
+bias_kids = num_kids**2
+print(bias_kids.mean())
+```
