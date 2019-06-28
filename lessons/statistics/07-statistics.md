@@ -86,7 +86,28 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> In its simplest form, Bayes' Theorem can be described by the equation:
+
+$P(A | B) = \frac{P(B | A)*P(A)}{P(B)}$ 
+
+> > Here we want to know the probability that Elvis was an identical twin *given that he had a twin*. We can  assign the following variables from the above equation:
+
+* $P(A | B)$: The probability that Elvis was an identical twin given that he had a twin (the prompt)
+* $P(A)$: The probability that Elvis was an identical twin in the population
+* $P(B)$: The probability that Elvis had a twin
+* $P(B | A)$: The probability that Elvis had a twin given that he was an identical twin
+
+Clearly $P(B | A) = 1$, since the space occupied by $P(B)$ must necessarily encompass that of $P(A)$. $P(A)$ Is $\frac{1}{300}$ as given in the problem. $P(B) = P(identical) + P(fraternal)$ since $P(B)$ is equivalent to $P(identical \cup fraternal)$, and because $P(identical)$ and $P(fraternal)$ are mutually exclusive events. Therefore $P(B) = \frac{1}{125} + \frac{1}{300} = \frac{17}{1500}$. Putting this together, we get:
+
+$P(A | B) = \frac{1*\frac{1}{300}}{\frac{17}{1500}} = \frac{5}{17}$ 
+
+
+
+
+
+> > Probability of being a twin: 17/1500
+> >
+> > Probability of being identical twin given that you are a twin: 5/17
 
 ---
 
