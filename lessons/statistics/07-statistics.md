@@ -88,26 +88,20 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 >> In its simplest form, Bayes' Theorem can be described by the equation:
 
-$P(A | B) = \frac{P(B | A)*P(A)}{P(B)}$ 
+P(A | B) = P(B | A)P(A) / P(B)
 
-> > Here we want to know the probability that Elvis was an identical twin *given that he had a twin*. We can  assign the following variables from the above equation:
+>> Here we want to know the probability that Elvis was an identical twin *given that he had a twin*. We can  assign the following variables from the above equation:
 
-* $P(A | B)$: The probability that Elvis was an identical twin given that he had a twin (the prompt)
-* $P(A)$: The probability that Elvis was an identical twin in the population
-* $P(B)$: The probability that Elvis had a twin
-* $P(B | A)$: The probability that Elvis had a twin given that he was an identical twin
+- P(A | B): The probability that Elvis was an identical twin given that he had a twin (the prompt)
+- P(A): The probability that Elvis was an identical twin in the population
+- P(B): The probability that Elvis had a twin
+- P(B | A): The probability that Elvis had a twin given that he was an identical twin
 
-Clearly $P(B | A) = 1$, since the space occupied by $P(B)$ must necessarily encompass that of $P(A)$. $P(A)$ Is $\frac{1}{300}$ as given in the problem. $P(B) = P(identical) + P(fraternal)$ since $P(B)$ is equivalent to $P(identical \cup fraternal)$, and because $P(identical)$ and $P(fraternal)$ are mutually exclusive events. Therefore $P(B) = \frac{1}{125} + \frac{1}{300} = \frac{17}{1500}$. Putting this together, we get:
+>> Clearly P(B | A) = 1, since the space occupied by P(B) must necessarily encompass that of P(A). P(A) Is (1/300) as given in the problem. P(B) = P(identical) + P(fraternal) since P(B) is equivalent to P(identical or fraternal), and because P(identical) and P(fraternal) are mutually exclusive events. Therefore P(B) = (1/125) + (1/300) = (17/1500). Putting this together, we get:
 
-$P(A | B) = \frac{1*\frac{1}{300}}{\frac{17}{1500}} = \frac{5}{17}$ 
+P(A | B) = (1)(1/300) / (17/1500) = (5/17) 
 
-
-
-
-
-> > Probability of being a twin: 17/1500
-> >
-> > Probability of being identical twin given that you are a twin: 5/17
+>> The probability that Elvis was an identical twin given that he had a twin brother is **(5/17) = 0.294**.
 
 ---
 
