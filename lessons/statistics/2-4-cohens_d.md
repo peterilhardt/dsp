@@ -13,4 +13,4 @@ print(cohend(firsts['totalwgt_lb'], others['totalwgt_lb']))
 print(cohend(firsts['prglngth'], others['prglngth']))
 ```
 
-> The difference in mean weights between first babies and others is -0.12, suggesting first babies tend to be about 2 ounces lighter than other babies on average. The Cohen's d for this comparison is -0.089, which is about a four times greater effect size (in magnitude) than that for the comparison of pregnancy lengths for these groups (Cohen's d = 0.029), but is still pretty small. I think this effect size would not be considered to have practical significance. 
+> The difference in mean weights between first babies and others is -0.12, suggesting first babies tend to be about 2 ounces lighter than other babies on average. The Cohen's d for this comparison is -0.089, which is about a three times greater effect size (in magnitude) than that for the comparison of pregnancy lengths for these groups (Cohen's d = 0.029), but is still pretty small. I think this effect size would not be considered to have practical significance. 
